@@ -17,6 +17,6 @@ todos!:Array<Ipassenger>;
   }
   ondelet(id:string){
 console.log(id)
-this._todoservice.removetodo(id)
+alert(this._todoservice.removetodo(id))
   }
 }

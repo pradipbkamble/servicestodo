@@ -24,7 +24,7 @@ formsignup!:FormGroup;
       console.log(this.formsignup.value)
 let obj={...this.formsignup.value,id:this._uuidservice.uuid()}
 // console.log(obj)
-this._todoservice.addtodo(obj)
+alert(this._todoservice.addtodo(obj))
 this.formsignup.reset()
     }
   }
