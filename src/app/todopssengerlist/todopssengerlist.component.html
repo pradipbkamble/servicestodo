@@ -1,0 +1,18 @@
+
+<!-- {{todo | json}} -->
+
+    
+        
+            <ul class="list-group bg-info">
+                <li class="list-group-item bg-warning" *ngFor="let todo of todos">
+                {{todo.name}}
+                <span class="float-right">
+                    <button class="btn btn-info mx-1 ">EDIT</button>
+                    <button class="btn btn-danger" (click)="ondelet(todo.id)">Delet</button>
+                
+                </span>
+                </li>
+                </ul>
+        
+    
+
